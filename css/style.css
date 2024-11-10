@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #14141f, #16162c);
+    color: white;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    display: inline-block;
+}
+
+ol,
+ul {
+    margin-bottom: 0;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.relative {
+    position: relative;
+}
+
+#nft {
+    padding: 5rem 0;
+    background-color: #14141f;
+}
+
+#nft i {
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+
+#nft p {
+    font-size: 12px;
+}
+
+#nft .fa-wallet {
+    background-color: #5142fc;
+
+}
+
+#nft .fa-bars {
+    background-color: #47a432;
+}
+
+#nft .fa-image {
+    background-color: #9835fb;
+
+}
+
+#nft .fa-sd-card {
+    background-color: #df4949;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 3rem 1rem;
+    flex-wrap: wrap;
+
+
+}
+
+footer>div {
+    width: 30%;
+}
+
+footer td,
+footer th {
+    padding: 10px 0 10px 20px;
+}
+
+footer td a {
+    color: gray;
+    position: relative;
+}
+
+footer td a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #b4acac;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    border-radius: 30%;
+    transform: scale(0);
+    transform-origin: left;
+    transition: 0.5s all ease;
+}
+
+footer td a:hover::after {
+    transform: scale(1);
+    transform-origin: left;
+
+}
+
+footer i {
+    font-size: 20px;
+    padding: 15px 20px;
+    background-color: #df4949;
+    border-radius: 0 10px 10px 0;
+}
+
+footer i:hover {
+    background-color: #df6f6f;
+}
+
+
+footer input {
+    padding: 10px;
+}
+
+.icons-grp i {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 0 2px;
+}
+
+.icons-grp i:hover {
+    background-color: #b4acac;
+}

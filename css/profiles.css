@@ -1,0 +1,33 @@
+.profiles {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profiles img {
+    border-radius: 50%;
+    position: relative;
+}
+
+.profiles i {
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    position: absolute;
+    background-color: rgb(15, 90, 252);
+    padding: 10px;
+    border-radius: 30px;
+    right: 14px;
+    top: 0;
+}
+
+.profiles .card-body {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.profiles h5 {
+    font-size: 18px;
+}
